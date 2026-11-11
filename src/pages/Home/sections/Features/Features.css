@@ -1,0 +1,7 @@
+.ft-bg { position: absolute; inset: 0; background: linear-gradient(rgba(9,6,5,.9), rgba(9,6,5,.94)), var(--bgimg) center/cover fixed; }
+.ft .container { position: relative; }
+.ft-card { padding: 38px 30px; height: 100%; }
+.ft-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; font-size: 1.6rem; color: #1a0f0b; background: var(--grad); margin-bottom: 20px; transition: transform .5s; box-shadow: 0 10px 24px rgba(217,138,108,.35); }
+.ft-card:hover .ft-icon { transform: rotate(-10deg) scale(1.1); }
+.ft-card h3 { font-family: var(--font-display); color: var(--copper-light); font-size: 1.25rem; margin-bottom: 8px; }
+.ft-card p { color: var(--muted); font-size: .95rem; }

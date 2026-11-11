@@ -1,0 +1,2 @@
+.gv-wrap { padding: 12px; max-width: 980px; margin-inline: auto; }
+.gv-wrap video { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 12px; background: #000; position: relative; z-index: 1; }

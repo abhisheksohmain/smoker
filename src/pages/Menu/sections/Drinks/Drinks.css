@@ -1,0 +1,6 @@
+.dr-img { height: 220px; }
+.dr-body { padding: 20px 22px 26px; }
+.dr-body div { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; margin-bottom: 6px; }
+.dr-body h3 { font-family: var(--font-display); font-size: 1.1rem; color: var(--copper-light); }
+.dr-body strong { font-size: 1.1rem; }
+.dr-body p { color: var(--muted); font-size: .9rem; }

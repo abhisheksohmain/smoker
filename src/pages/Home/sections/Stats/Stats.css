@@ -1,0 +1,6 @@
+.st { padding: 70px 0; margin-top: -40px; z-index: 5; }
+.st-card { padding: 34px 20px; text-align: center; display: grid; gap: 6px; justify-items: center; }
+.st-icon { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; font-size: 1.4rem; color: #1a0f0b; background: var(--grad); box-shadow: 0 8px 22px rgba(217,138,108,.4); transition: transform .5s; }
+.st-card:hover .st-icon { transform: rotateY(360deg); }
+.st-num { font-family: var(--font-display); font-size: 2.6rem; line-height: 1.2; }
+.st-label { color: var(--muted); }

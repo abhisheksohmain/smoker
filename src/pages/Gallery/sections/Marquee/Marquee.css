@@ -1,0 +1,5 @@
+.gm { padding: 70px 0; overflow: hidden; }
+.gm-track { display: flex; gap: 20px; width: max-content; animation: gmScroll 40s linear infinite; }
+.gm:hover .gm-track { animation-play-state: paused; }
+.gm-item { width: 300px; height: 210px; flex-shrink: 0; }
+@keyframes gmScroll { to { transform: translateX(calc(-50% - 10px)); } }

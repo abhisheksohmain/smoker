@@ -1,0 +1,9 @@
+.enq { padding: 38px; display: grid; gap: 18px; }
+.enq-title { font-family: var(--font-display); font-size: 1.6rem; color: var(--copper-light); }
+.enq-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.enq label { display: grid; gap: 6px; font-size: .85rem; color: var(--muted); }
+.enq input, .enq select, .enq textarea { background: rgba(0,0,0,.45); border: 1px solid var(--line); border-radius: 12px; padding: 13px 16px; transition: border-color .3s, box-shadow .3s; }
+.enq input:focus, .enq select:focus, .enq textarea:focus { outline: none; border-color: var(--copper); box-shadow: 0 0 0 3px rgba(217,138,108,.2); }
+.enq select option { background: #1b120e; }
+.enq .btn { justify-self: start; }
+@media (max-width: 600px) { .enq { padding: 24px; } .enq-row { grid-template-columns: 1fr; } }

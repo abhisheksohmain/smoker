@@ -1,0 +1,4 @@
+.ast-grid { align-items: center; gap: 60px; }
+.ast-p { color: var(--muted); margin-bottom: 18px; }
+.ast-sign { font-family: var(--font-display); color: var(--copper-light); font-size: 1.2rem; margin-top: 24px; }
+.ast-img { height: 560px; }

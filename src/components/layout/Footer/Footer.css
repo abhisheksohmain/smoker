@@ -1,0 +1,17 @@
+.foot { background: #060403; border-top: 1px solid var(--line); padding-top: 70px; }
+.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 40px; }
+.foot-logo { height: 110px; width: auto; margin-bottom: 14px; }
+.foot-text { color: var(--muted); font-size: .92rem; max-width: 320px; }
+.foot h4 { font-family: var(--font-display); color: var(--copper-light); margin-bottom: 18px; font-size: 1.1rem; }
+.foot li { color: var(--muted); font-size: .92rem; margin-bottom: 12px; }
+.foot li a { display: inline-block; transition: color .3s, transform .3s; }
+.foot li a:hover { color: var(--copper-light); transform: translateX(6px); }
+.foot-contact li { display: flex; gap: 10px; align-items: flex-start; }
+.foot-contact svg { color: var(--copper); margin-top: 6px; flex-shrink: 0; }
+.foot-social { display: flex; gap: 12px; margin-top: 22px; }
+.foot-social a { position: relative; overflow: hidden; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); color: var(--copper-light); transition: all .4s; }
+.foot-social a::after { content: ''; position: absolute; inset: 0 0 50% 0; background: linear-gradient(180deg, rgba(255,255,255,.2), transparent); }
+.foot-social a:hover { background: var(--grad); color: #1a0f0b; transform: translateY(-5px); box-shadow: 0 10px 20px rgba(217,138,108,.35); }
+.foot-bottom { margin-top: 50px; padding: 22px 4%; text-align: center; border-top: 1px solid rgba(217,138,108,.15); color: var(--muted); font-size: .82rem; }
+@media (max-width: 950px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .foot-grid { grid-template-columns: 1fr; } }

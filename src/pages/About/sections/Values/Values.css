@@ -1,0 +1,5 @@
+.av-card { padding: 36px 26px; text-align: center; height: 100%; }
+.av-i { display: inline-grid; place-items: center; width: 70px; height: 70px; border-radius: 50%; font-size: 1.7rem; color: var(--copper-light); border: 1px solid var(--copper); margin-bottom: 18px; transition: all .5s; }
+.av-card:hover .av-i { background: var(--grad); color: #1a0f0b; transform: scale(1.12); box-shadow: 0 10px 26px rgba(217,138,108,.4); }
+.av-card h3 { font-family: var(--font-display); color: var(--copper-light); margin-bottom: 8px; }
+.av-card p { color: var(--muted); font-size: .93rem; }

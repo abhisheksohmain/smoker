@@ -1,0 +1,8 @@
+.ch-grid { align-items: center; gap: 60px; }
+.ch-img { height: 440px; }
+.ch-card { padding: 20px 30px; }
+.ch-row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 18px 0; border-bottom: 1px dashed var(--line); }
+.ch-row span { display: flex; gap: 10px; align-items: center; color: var(--muted); }
+.ch-row svg { color: var(--copper); }
+.ch-row strong { color: var(--copper-light); font-weight: 500; }
+.ch-note { color: var(--muted); font-size: .85rem; padding: 16px 0 6px; }

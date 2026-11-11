@@ -1,0 +1,8 @@
+.ts-card { padding: 40px 32px 32px; height: 100%; display: flex; flex-direction: column; gap: 16px; }
+.ts-quote { font-size: 2rem; color: var(--copper); opacity: .5; }
+.ts-stars { display: flex; gap: 4px; color: #f6c7ad; }
+.ts-card blockquote { color: var(--text); flex: 1; }
+.ts-card figcaption { display: flex; align-items: center; gap: 14px; padding-top: 18px; border-top: 1px solid var(--line); }
+.ts-card figcaption img { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 2px solid var(--copper); }
+.ts-card figcaption strong { display: block; color: var(--copper-light); }
+.ts-card figcaption span { color: var(--muted); font-size: .85rem; }

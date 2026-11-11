@@ -1,0 +1,6 @@
+.bt-card { display: grid; grid-template-columns: 220px 1fr auto; align-items: center; gap: 28px; padding-right: 36px; }
+.bt-img { height: 150px; }
+.bt-body h3 { font-family: var(--font-display); color: var(--copper-light); font-size: 1.3rem; }
+.bt-body p { color: var(--muted); }
+.bt-price { font-family: var(--font-display); font-size: 1.8rem; }
+@media (max-width: 700px) { .bt-card { grid-template-columns: 1fr; padding: 0 0 24px; gap: 14px; } .bt-body, .bt-price { padding: 0 24px; } .bt-img { height: 190px; } }

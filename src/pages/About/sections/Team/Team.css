@@ -1,0 +1,9 @@
+.tm-img { height: 300px; }
+.tm-img img { filter: grayscale(.4); transition: filter .6s, transform 1s; }
+.tm-card:hover .tm-img img { filter: grayscale(0); }
+.tm-body { padding: 22px; text-align: center; }
+.tm-body h3 { font-family: var(--font-display); color: var(--copper-light); }
+.tm-body span { color: var(--muted); font-size: .9rem; }
+.tm-soc { display: flex; justify-content: center; gap: 16px; margin-top: 14px; color: var(--copper); }
+.tm-soc svg { transition: transform .3s, color .3s; cursor: pointer; }
+.tm-soc svg:hover { transform: translateY(-4px) scale(1.2); color: var(--copper-light); }

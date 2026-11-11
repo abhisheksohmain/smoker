@@ -1,0 +1,6 @@
+.bk-bg { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,6,5,.97) 35%, rgba(9,6,5,.8)), var(--bgimg) center/cover; }
+.bk-grid { position: relative; display: grid; grid-template-columns: 1fr 1.1fr; gap: 60px; align-items: center; }
+.bk-info { display: grid; gap: 16px; }
+.bk-info p { display: flex; gap: 14px; align-items: flex-start; color: var(--text); }
+.bk-info svg { color: var(--copper); margin-top: 7px; flex-shrink: 0; }
+@media (max-width: 900px) { .bk-grid { grid-template-columns: 1fr; } }

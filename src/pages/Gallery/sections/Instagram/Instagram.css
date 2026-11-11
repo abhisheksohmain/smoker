@@ -1,0 +1,6 @@
+.gi-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+.gi-item { aspect-ratio: 1; display: block; }
+.gi-item span { position: absolute; inset: 0; z-index: 4; display: grid; place-items: center; color: var(--copper-light); background: rgba(9,6,5,.6); opacity: 0; transition: opacity .4s; }
+.gi-item:hover span { opacity: 1; }
+.gi-cta { text-align: center; margin-top: 40px; }
+@media (max-width: 900px) { .gi-grid { grid-template-columns: repeat(3, 1fr); } }

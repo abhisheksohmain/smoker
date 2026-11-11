@@ -1,0 +1,7 @@
+.fl-card { height: 100%; }
+.fl-img { position: relative; height: 230px; }
+.fl-tag { position: absolute; top: 16px; left: 16px; z-index: 4; padding: 4px 16px; border-radius: 999px; font-size: .78rem; font-weight: 600; color: #1a0f0b; background: var(--grad); }
+.fl-body { padding: 24px 26px 30px; }
+.fl-body h3 { font-family: var(--font-display); font-size: 1.35rem; color: var(--copper-light); margin-bottom: 8px; }
+.fl-body p { color: var(--muted); font-size: .95rem; }
+.fl-cta { text-align: center; margin-top: 50px; }

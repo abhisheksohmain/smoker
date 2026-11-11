@@ -1,0 +1,7 @@
+.am-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 240px; gap: 20px; }
+.am-cell { height: 100%; }
+.am-card { height: 100%; }
+.am-cell.big { grid-column: span 2; grid-row: span 2; }
+.am-cell.tall { grid-row: span 2; }
+.am-cell.wide { grid-column: span 2; }
+@media (max-width: 800px) { .am-grid { grid-template-columns: 1fr 1fr; } .am-cell.big, .am-cell.wide { grid-column: span 2; } }

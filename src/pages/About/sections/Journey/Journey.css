@@ -1,0 +1,11 @@
+.aj-line { position: relative; display: grid; gap: 30px; }
+.aj-line::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: linear-gradient(var(--copper), transparent); }
+.aj-item { width: 50%; padding-right: 50px; position: relative; }
+.aj-item.right { margin-left: auto; padding-right: 0; padding-left: 50px; }
+.aj-item::after { content: ''; position: absolute; top: 34px; right: -9px; width: 18px; height: 18px; border-radius: 50%; background: var(--grad); box-shadow: 0 0 18px var(--copper); }
+.aj-item.right::after { right: auto; left: -9px; }
+.aj-card { padding: 28px; }
+.aj-y { color: var(--copper); font-size: .85rem; letter-spacing: 2px; }
+.aj-card h3 { font-family: var(--font-display); color: var(--copper-light); margin: 6px 0; }
+.aj-card p { color: var(--muted); font-size: .95rem; }
+@media (max-width: 800px) { .aj-line::before { left: 10px; } .aj-item, .aj-item.right { width: 100%; padding: 0 0 0 40px; } .aj-item::after, .aj-item.right::after { left: 1px; right: auto; } }

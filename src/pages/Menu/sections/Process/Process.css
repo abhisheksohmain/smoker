@@ -1,0 +1,5 @@
+.pr-card { padding: 38px 24px; text-align: center; height: 100%; }
+.pr-i { display: inline-grid; place-items: center; width: 76px; height: 76px; border-radius: 50%; background: var(--grad); color: #1a0f0b; font-size: 1.8rem; margin-bottom: 18px; box-shadow: 0 10px 26px rgba(217,138,108,.4); transition: transform .5s; }
+.pr-card:hover .pr-i { transform: translateY(-6px) rotate(10deg); }
+.pr-card h3 { font-family: var(--font-display); color: var(--copper-light); margin-bottom: 6px; }
+.pr-card p { color: var(--muted); font-size: .93rem; }
