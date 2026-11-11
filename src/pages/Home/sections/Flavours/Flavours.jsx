@@ -11,37 +11,37 @@ const ITEMS = [
   {
     name: 'Double Apple',
     tag: 'Classic',
-    img: `${BASE}images/grapes.jpg`,
+    img: `${BASE}images/shisha-red.jpg`,
     text: 'Sweet red apple with a soft anise finish — the all-time favourite.',
   },
   {
     name: 'Blueberry Mint',
     tag: 'Fresh',
-    img: `${BASE}images/blueberry.jpg`,
+    img: `${BASE}images/lounge.jpg`,
     text: 'Ripe blueberries cooled with a clean hit of spearmint.',
   },
   {
     name: 'Strawberry Cream',
     tag: 'Sweet',
-    img: `${BASE}images/strawberry.jpg`,
+    img: `${BASE}images/tower.jpg`,
     text: 'Juicy strawberries folded into a smooth vanilla cream.',
   },
   {
     name: 'Watermelon Ice',
     tag: 'Cool',
-    img: `${BASE}images/watermelon.jpg`,
+    img: `${BASE}images/coals.jpg`,
     text: 'Summer in a bowl: crisp watermelon with an icy finish.',
   },
   {
     name: 'Lemon Mint',
     tag: 'Zesty',
-    img: `${BASE}images/lemon.jpg`,
+    img: `${BASE}images/torch.jpg`,
     text: 'Sharp citrus and fresh mint. Light, bright and refreshing.',
   },
   {
     name: 'Smoky Chai',
     tag: 'Signature',
-    img: `${BASE}images/coffee.jpg`,
+    img: `${BASE}images/sign.jpg`,
     text: 'Warm spiced tea with cardamom and a touch of caramel.',
   },
 ];
@@ -50,7 +50,6 @@ export default function Flavours() {
   return (
     <section className="section section-alt fl">
       <div className="container">
-
         <SectionHead
           eyebrow="Signature flavours"
           title="Taste that keeps you coming back"
@@ -61,7 +60,6 @@ export default function Flavours() {
           {ITEMS.map((f, i) => (
             <Reveal key={f.name} delay={i * 80}>
               <article className="card fl-card">
-
                 <div className="zoom fl-img">
                   <Img src={f.img} alt={f.name} />
                   <span className="fl-tag">{f.tag}</span>
@@ -71,7 +69,6 @@ export default function Flavours() {
                   <h3>{f.name}</h3>
                   <p>{f.text}</p>
                 </div>
-
               </article>
             </Reveal>
           ))}
@@ -82,7 +79,6 @@ export default function Flavours() {
             See the full menu
           </Button>
         </div>
-
       </div>
     </section>
   );
