@@ -9,12 +9,13 @@
   --muted: #b9a79d;
   --line: rgba(217, 138, 108, 0.28);
   --grad: linear-gradient(135deg, #f6c7ad 0%, #d98a6c 45%, #8f4f38 100%);
-  --font-display: 'Cinzel', serif;
-  --font-body: 'Poppins', sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
   --radius: 18px;
 }
 *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-weight: 700; letter-spacing: .3px; }
 body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.7; overflow-x: hidden; }
 img, video { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }

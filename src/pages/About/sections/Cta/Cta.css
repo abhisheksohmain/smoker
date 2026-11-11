@@ -1,5 +1,5 @@
 .acta { padding: 70px 30px; text-align: center; display: grid; justify-items: center; gap: 16px; }
 .acta-logo { height: 110px; width: auto; }
-.acta h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 4vw, 2.6rem); color: var(--copper-light); max-width: 700px; }
+.acta h2 { font-family: var(--font-display); font-size: clamp(2.1rem, 4.6vw, 3rem); color: var(--copper-light); max-width: 700px; }
 .acta p { color: var(--muted); }
 .acta-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 10px; }

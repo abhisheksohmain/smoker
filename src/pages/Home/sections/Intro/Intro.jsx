@@ -67,7 +67,7 @@ export default function Intro() {
             </ul>
 
             <Button to="/about">
-              Our story
+              Discover Our Story
             </Button>
 
           </Reveal>

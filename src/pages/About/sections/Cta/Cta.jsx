@@ -14,8 +14,8 @@ export default function Cta() {
           <h2>Come see why guests keep coming back</h2>
           <p>Book a table or message us on WhatsApp — we will have your hookah ready.</p>
           <div className="acta-btns">
-            <Button to="/contact">Book a table</Button>
-            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Chat on WhatsApp</Button>
+            <Button to="/contact">Book Your Table</Button>
+            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Message Us on WhatsApp</Button>
           </div>
         </Reveal>
       </div>

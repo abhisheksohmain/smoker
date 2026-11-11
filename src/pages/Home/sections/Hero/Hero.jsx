@@ -81,11 +81,11 @@ export default function Hero() {
         <div className="hh-btns">
 
           <Button to="/contact">
-            Reserve a table
+            Book Your Table
           </Button>
 
           <Button to="/menu" variant="ghost">
-            Explore the menu
+            View Menu
           </Button>
 
           <Button
@@ -93,7 +93,7 @@ export default function Hero() {
             variant="wa"
             icon={<FaWhatsapp size={18} />}
           >
-            WhatsApp us
+            Chat on WhatsApp
           </Button>
 
         </div>

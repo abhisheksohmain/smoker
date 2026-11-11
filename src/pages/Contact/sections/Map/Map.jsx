@@ -7,7 +7,7 @@ export default function Map() {
   return (
     <section className="section">
       <div className="container">
-        <SectionHead eyebrow="Location" title="Find us inside the café" text={SITE.address} />
+        <SectionHead eyebrow="Location" title="Find us in Lakemba" text={SITE.address} />
         <Reveal>
           <div className="card cm-wrap">
             <iframe title="The Smoke Hauz location" loading="lazy" referrerPolicy="no-referrer-when-downgrade"

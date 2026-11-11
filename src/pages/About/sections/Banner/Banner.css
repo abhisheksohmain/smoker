@@ -1,7 +1,7 @@
-.ab-banner { position: relative; padding: 220px 0 120px; background-size: cover; background-position: center; text-align: center; }
+.ab-banner { position: relative; padding: 240px 0 120px; background-size: cover; background-position: center; text-align: center; }
 .ab-banner-ov { position: absolute; inset: 0; background: linear-gradient(rgba(9,6,5,.78), var(--bg)); }
 .ab-banner-in { position: relative; }
-.ab-banner h1 { font-family: var(--font-display); font-size: clamp(2.4rem, 6vw, 4.2rem); }
+.ab-banner h1 { font-family: var(--font-display); font-size: clamp(2.9rem, 7vw, 5rem); }
 .ab-banner p { color: var(--muted); margin-top: 12px; }
 .ab-banner a { color: var(--copper-light); transition: color .3s; }
 .ab-banner a:hover { color: #fff; }

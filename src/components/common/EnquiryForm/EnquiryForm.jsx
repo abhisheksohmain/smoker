@@ -42,7 +42,7 @@ export default function EnquiryForm({ title = 'Book Your Table' }) {
         </select>
       </label>
       <label>Message<textarea rows="4" value={f.message} onChange={set('message')} placeholder="Flavour requests, seating, anything else..." /></label>
-      <Button variant="wa" icon={<FaWhatsapp size={20} />} type="submit">Send on WhatsApp</Button>
+      <Button variant="wa" icon={<FaWhatsapp size={20} />} type="submit">Confirm on WhatsApp</Button>
     </form>
   );
 }

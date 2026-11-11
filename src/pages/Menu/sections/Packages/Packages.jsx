@@ -25,7 +25,7 @@ export default function Packages() {
                 <p className="pk-d">{x.d}</p>
                 <strong className="pk-price grad-text">{x.p}</strong>
                 <ul>{x.f.map((t) => <li key={t}><FaCheck /> {t}</li>)}</ul>
-                <Button href={waLink(`Hi, I'd like to book the ${x.n} package.`)} variant={x.hot ? 'primary' : 'ghost'}>Book {x.n}</Button>
+                <Button href={waLink(`Hi, I'd like to book the ${x.n} package.`)} variant={x.hot ? 'primary' : 'ghost'}>Choose {x.n}</Button>
               </div>
             </Reveal>
           ))}

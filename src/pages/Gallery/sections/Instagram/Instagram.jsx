@@ -50,7 +50,7 @@ export default function Instagram() {
             href={SITE.socials.instagram}
             icon={<FaInstagram size={18} />}
           >
-            Follow on Instagram
+            Follow Us on Instagram
           </Button>
         </div>
       </div>

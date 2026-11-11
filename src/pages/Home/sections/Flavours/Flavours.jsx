@@ -76,7 +76,7 @@ export default function Flavours() {
 
         <div className="fl-cta">
           <Button to="/menu" variant="ghost">
-            See the full menu
+            View Full Menu
           </Button>
         </div>
       </div>

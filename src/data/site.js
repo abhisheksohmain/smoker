@@ -2,11 +2,11 @@
 export const SITE = {
   name: 'The Smoke Hauz',
   tag: 'Sheesha Lounge',
-  whatsapp: '61400000000', // country code + number, no "+" or spaces
-  phone: '+61 400 000 000',
+  whatsapp: '61415694109', // country code + number, no "+" or spaces
+  phone: '+61 415 694 109',
   email: 'hello@thesmokehauz.com',
-  address: 'Shop 1, Main Street, Sydney NSW 2000 (Inside the Café)',
-  mapQuery: 'Sydney NSW',
+  address: '83 Haldon Street, Lakemba NSW 2195',
+  mapQuery: '83 Haldon Street, Lakemba NSW 2195',
   hours: [
     ['Monday – Thursday', '4:00 PM – 12:00 AM'],
     ['Friday – Saturday', '2:00 PM – 2:00 AM'],
@@ -18,6 +18,7 @@ export const SITE = {
     tiktok: 'https://tiktok.com/',
   },
 };
+export const telHref = SITE.phone.replace(/\s+/g, '');
 export const waLink = (text = 'Hi The Smoke Hauz, I would like to know more.') =>
   `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(text)}`;
 

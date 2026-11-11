@@ -117,7 +117,7 @@ export default function Footer() {
 
             <li>
               <FaPhoneAlt />
-              <a href={`tel:${SITE.phone}`}>
+              <a href={`tel:${SITE.phone.replace(/\s+/g, '')}`}>
                 {SITE.phone}
               </a>
             </li>

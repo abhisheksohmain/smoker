@@ -15,7 +15,7 @@ const items = () => [
     i: <FaPhoneAlt />,
     t: 'Call us',
     v: SITE.phone,
-    h: `tel:${SITE.phone}`,
+    h: `tel:${SITE.phone.replace(/\s+/g, '')}`,
     external: false,
   },
   {

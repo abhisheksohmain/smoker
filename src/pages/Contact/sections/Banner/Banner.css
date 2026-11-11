@@ -1,7 +1,7 @@
-.ct-banner { position: relative; padding: 220px 0 120px; background-size: cover; background-position: center; text-align: center; }
+.ct-banner { position: relative; padding: 240px 0 120px; background-size: cover; background-position: center; text-align: center; }
 .ct-banner-ov { position: absolute; inset: 0; background: linear-gradient(rgba(9,6,5,.78), var(--bg)); }
 .ct-banner-in { position: relative; display: grid; gap: 12px; justify-items: center; }
-.ct-banner h1 { font-family: var(--font-display); font-size: clamp(2.4rem, 6vw, 4.2rem); }
+.ct-banner h1 { font-family: var(--font-display); font-size: clamp(2.9rem, 7vw, 5rem); }
 .ct-banner p { color: var(--muted); max-width: 560px; }
 .ct-crumb { color: var(--muted); font-size: .9rem; }
 .ct-crumb a { color: var(--copper-light); transition: color .3s; }

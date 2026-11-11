@@ -14,8 +14,8 @@ export default function Cta() {
           <h2>Want to be in the next photo?</h2>
           <p>Reserve a table and become part of the story.</p>
           <div className="gl-cta-btns">
-            <Button to="/contact">Book a table</Button>
-            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Chat on WhatsApp</Button>
+            <Button to="/contact">Book Your Table</Button>
+            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Message Us on WhatsApp</Button>
           </div>
         </Reveal>
       </div>

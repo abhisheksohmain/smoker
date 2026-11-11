@@ -14,8 +14,8 @@ export default function Cta() {
           <h2>Prefer to chat? We are one tap away</h2>
           <p>Message us now and we will confirm your booking in minutes.</p>
           <div className="ct-cta-btns">
-            <Button to="/contact">Book a table</Button>
-            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Chat on WhatsApp</Button>
+            <Button to="/contact">Book Your Table</Button>
+            <Button href={waLink()} variant="wa" icon={<FaWhatsapp size={18} />}>Message Us on WhatsApp</Button>
           </div>
         </Reveal>
       </div>
